@@ -1,3 +1,5 @@
+#BQ DAG to create tables in BigQuery
+
 import airflow
 from airflow import DAG
 from datetime import timedelta

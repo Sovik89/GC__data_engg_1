@@ -1,4 +1,5 @@
 # import all modules
+# This DAG will start a Dataproc cluster, run 3 PySpark jobs sequentially, and then stop the cluster.
 import airflow
 from airflow import DAG
 from datetime import timedelta
