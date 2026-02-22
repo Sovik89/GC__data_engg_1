@@ -1,6 +1,7 @@
 --Silver BQ tables:
 
 --Step 1: Create the customers Table in the Silver Layer
+BEGIN
 
 CREATE TABLE IF NOT EXISTS `gcp-sovik-de-1.silver_dataset.customers`
 (
@@ -438,3 +439,5 @@ VALUES (
     source.effective_end_date,
     source.is_active
 );
+
+END;
